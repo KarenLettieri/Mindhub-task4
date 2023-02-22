@@ -401,3 +401,8 @@ input[type=text] {
     transition: 0.3s;
 }
 
+.maps-table {
+    font-size: 20px;
+    margin: auto;
+    margin-top: 2em;
+}
