@@ -50,7 +50,8 @@ body {
 .about-button-1,
 .contact-button-1,
 .rules-button-1,
-.games-button-1 {
+.games-button-1,
+.register-button-1 {
 
     font-size: 20px;
     margin: 10px 10px 0px 10px;
@@ -123,7 +124,8 @@ body {
 .home-button-2,
 .contact-button-2,
 .games-button-2,
-.rules-button-2 {
+.rules-button-2,
+.register-button-2 {
     font-size: 20px;
     margin: 10px 10px 0px 10px;
     padding: 5px 10px 5px 10px;
@@ -155,7 +157,8 @@ body {
 .home-button-3,
 .about-button-3,
 .games-button-3,
-.rules-button-3 {
+.rules-button-3,
+.register-button-3 {
     font-size: 20px;
     margin: 10px 10px 0px 10px;
     padding: 5px 10px 5px 10px;
@@ -187,7 +190,8 @@ body {
 .home-button-4,
 .about-button-4,
 .contact-button-4,
-.rules-button-4 {
+.rules-button-4,
+.register-button-4 {
     font-size: 20px;
     margin: 10px 10px 0px 10px;
     padding: 5px 10px 5px 10px;
@@ -219,7 +223,8 @@ body {
 .home-button-5,
 .about-button-5,
 .contact-button-5,
-.games-button-5 {
+.games-button-5,
+.register-button-5 {
     font-size: 20px;
     margin: 10px 10px 0px 10px;
     padding: 5px 10px 5px 10px;
@@ -247,6 +252,41 @@ body {
     -moz-box-shadow: 3px 4px 5px 4px rgba(0, 0, 0, 0.66);
 
 }
+
+.home-button-6,
+.about-button-6,
+.contact-button-6,
+.games-button-6,
+.rules-button-6 {
+    font-size: 20px;
+    margin: 10px 10px 0px 10px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    color: #ffff;
+    background-color: #5c37c4;
+    border: solid 1px black;
+    border-radius: 15px;
+    box-shadow: 3px 4px 5px 4px rgba(0, 0, 0, 0.66);
+    -webkit-box-shadow: 3px 4px 5px 4px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 3px 4px 5px 4px rgba(0, 0, 0, 0.66);
+}
+
+.register-button-6 {
+    font-size: 20px;
+    margin: 10px 10px 00px 10px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    color: #ffff;
+    background-color: #4739e2;
+    border: solid 1px black;
+    border-radius: 15px;
+    box-shadow: 3px 4px 5px 4px rgba(0, 0, 0, 0.66);
+    -webkit-box-shadow: 3px 4px 5px 4px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 3px 4px 5px 4px rgba(0, 0, 0, 0.66);
+
+}
+
+
 
 .rules-subtitle {
     margin-left: 39%;
@@ -314,3 +354,50 @@ td {
     margin: auto;
     margin-top: 2em;
 }
+
+.formulario {
+    box-sizing: border-box;
+    padding: auto;
+    font-size: 20px;
+    margin: auto;
+    width: 70em;
+
+    
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input[type=text] {
+    padding: 5px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: #ffff;
+
+}
+
+.button-form {
+    font-size: 20px;
+    background-color:#0a0a23;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 1px 1px rgb(0,0,0);
+    margin-left: 31em;
+
+}
+
+.button-form:hover {
+    background-color:#606165;
+    transition: 0.3s;
+}
+
